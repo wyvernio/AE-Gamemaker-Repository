@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"SND_Lose_B",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.162925,
+  "name":"SND_Lose_B",
+  "parent":{
+    "name":"Lose",
+    "path":"folders/Desert Asset Package/Sounds/Lose.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"SND_Lose_B.ogg",
+  "type":0,
+  "volume":1.0,
+}

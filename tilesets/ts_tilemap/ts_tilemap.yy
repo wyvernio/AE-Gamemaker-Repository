@@ -1,0 +1,45 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_tilemap",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_2","closed_edge":false,"name":"autotile_2","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[82,146,144,145,110,128,0,111,129,0,0,0,0,0,0,0,],},
+    {"$GMAutoTileSet":"","%Name":"autotile_3","closed_edge":false,"name":"autotile_3","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":13,
+    "SerialiseWidth":5,
+    "TileCompressedData":[
+      -16,0,14,18,19,20,0,0,36,37,38,75,0,54,55,56,93,-6,0,8,72,73,74,0,0,90,91,92,-7,0,14,108,109,110,0,0,
+      126,127,128,0,0,144,145,146,0,
+    ],
+    "TileDataFormat":1,
+  },
+  "name":"ts_tilemap",
+  "out_columns":16,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tilesets",
+    "path":"folders/Desert Asset Package/Sprites/Tilesets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"spr_tilemap",
+    "path":"sprites/spr_tilemap/spr_tilemap.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":1,
+  "tilevsep":1,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":252,
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"SND_Move_B",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.091497,
+  "name":"SND_Move_B",
+  "parent":{
+    "name":"Move",
+    "path":"folders/Desert Asset Package/Sounds/Move.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"SND_Move_B.ogg",
+  "type":0,
+  "volume":1.0,
+}

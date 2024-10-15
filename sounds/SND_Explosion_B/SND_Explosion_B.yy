@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"SND_Explosion_B",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.97907,
+  "name":"SND_Explosion_B",
+  "parent":{
+    "name":"Explosions",
+    "path":"folders/Desert Asset Package/Sounds/Explosions.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"SND_Explosion_B.ogg",
+  "type":0,
+  "volume":1.0,
+}
