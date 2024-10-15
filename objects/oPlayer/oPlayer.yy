@@ -9,8 +9,8 @@
   "name":"oPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Agent_Escapades",
-    "path":"Agent_Escapades.yyp",
+    "name":"Player",
+    "path":"folders/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
