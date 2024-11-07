@@ -5,6 +5,7 @@ upKey = keyboard_check(ord( "W" ));
 downKey = keyboard_check(ord( "S" ));
 
 //Player movement
+#region
 	//Get direction
 	var _horizKey = rightKey - leftKey;
 	var _vertKey = downKey - upKey;
@@ -31,3 +32,33 @@ downKey = keyboard_check(ord( "S" ));
 	//Moving the player
 	x += xspd;
 	y += yspd;
+	
+	//Depth
+	depth = -bbox_bottom;
+	
+#endregion
+
+//Player aiming
+#region
+	centerY = y + centerYOffset;
+	
+	//aim
+	aimDir = point_direction( x, centerY, mouse_x, mouse_y );
+#endregion
+
+//Sprite control
+#region
+	//Make sure the player is facing the right direction
+	face = round( aimDir/90 );
+	if face == 4 { face = 0; };
+
+	//stop animating on idle
+	if xspd == 0 && yspd == 0 
+	{
+		image_index = 0;
+	}
+	
+	//set the player sprite
+	mask_index = sprite[3];
+	sprite_index = sprite[face];
+#endregion

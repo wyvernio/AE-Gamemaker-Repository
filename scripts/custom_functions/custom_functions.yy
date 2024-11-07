@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"custom_functions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"custom_functions",
+  "parent":{
+    "name":"Agent_Escapades",
+    "path":"Agent_Escapades.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
