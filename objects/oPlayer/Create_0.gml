@@ -21,3 +21,10 @@
 #endregion
 
 	sprite_index = sprite[face];
+	
+//Weapon info
+	shootTimer = 0;
+	shootCooldown = 9;
+	
+	bulletObj = oBullet1;
+	weaponLength = sprite_get_bbox_right( sBigShoota ) - sprite_get_xoffset( sBigShoota );

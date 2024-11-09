@@ -3,6 +3,7 @@ rightKey = keyboard_check(ord( "D" ));
 leftKey = keyboard_check(ord( "A" ));
 upKey = keyboard_check(ord( "W" ));
 downKey = keyboard_check(ord( "S" ));
+shootKey = mouse_check_button( mb_left );
 
 //Player movement
 #region
@@ -61,4 +62,33 @@ downKey = keyboard_check(ord( "S" ));
 	//set the player sprite
 	mask_index = sprite[3];
 	sprite_index = sprite[face];
+#endregion
+
+//Shooting weapon
+#region
+
+if shootTimer > 0 { shootTimer--;};
+
+
+if shootKey && shootTimer <= 0
+{
+	
+	//Reset the timer
+	shootTimer = shootCooldown;
+	
+	//Shooting
+			//Create bullet, storing identifier into bulletinst
+			var _xOffset = lengthdir_x( weaponLength + weaponOffsetDist, aimDir );
+			var _yOffset = lengthdir_y( weaponLength + weaponOffsetDist, aimDir );
+	
+			var _bulletinst = instance_create_depth( x +_xOffset, centerY + _yOffset, depth-100, bulletObj);
+	
+			//Change bullet's direction
+			with ( _bulletinst )
+			{
+				dir = other.aimDir;
+			}
+			
+}
+
 #endregion

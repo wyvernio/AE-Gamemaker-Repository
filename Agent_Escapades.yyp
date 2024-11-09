@@ -70,6 +70,7 @@
   "name":"Agent_Escapades",
   "resources":[
     {"id":{"name":"License","path":"notes/License/License.yy",},},
+    {"id":{"name":"oBullet1","path":"objects/oBullet1/oBullet1.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSolidWall","path":"objects/oSolidWall/oSolidWall.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
@@ -116,6 +117,7 @@
     {"id":{"name":"SND_Shoot_G","path":"sounds/SND_Shoot_G/SND_Shoot_G.yy",},},
     {"id":{"name":"SND_Shoot_H","path":"sounds/SND_Shoot_H/SND_Shoot_H.yy",},},
     {"id":{"name":"sBigShoota","path":"sprites/sBigShoota/sBigShoota.yy",},},
+    {"id":{"name":"sBullet1","path":"sprites/sBullet1/sBullet1.yy",},},
     {"id":{"name":"sPlayerBatDown","path":"sprites/sPlayerBatDown/sPlayerBatDown.yy",},},
     {"id":{"name":"sPlayerBatLeft","path":"sprites/sPlayerBatLeft/sPlayerBatLeft.yy",},},
     {"id":{"name":"sPlayerBatRight","path":"sprites/sPlayerBatRight/sPlayerBatRight.yy",},},
