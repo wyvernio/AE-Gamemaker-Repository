@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"weapon_creation",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"weapon_creation",
+  "parent":{
+    "name":"Agent_Escapades",
+    "path":"Agent_Escapades.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"oBullet1",
+  "%Name":"oMultiBullet",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oBullet1",
+  "name":"oMultiBullet",
   "overriddenProperties":[],
   "parent":{
     "name":"Player",
     "path":"folders/Player.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oBullet1",
+    "path":"objects/oBullet1/oBullet1.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBullet1",
-    "path":"sprites/sBullet1/sBullet1.yy",
+    "name":"sMultiBullet",
+    "path":"sprites/sMultiBullet/sMultiBullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,

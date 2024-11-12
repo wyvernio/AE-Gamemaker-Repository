@@ -24,7 +24,14 @@
 	
 //Weapon info
 	shootTimer = 0;
-	shootCooldown = 9;
 	
-	bulletObj = oBullet1;
-	weaponLength = sprite_get_bbox_right( sBigShoota ) - sprite_get_xoffset( sBigShoota );
+	//Add weapons to player weapon inv
+	array_push( global.PlayerWeapons, global.WeaponList.bigShoota);
+	array_push( global.PlayerWeapons, global.WeaponList.longShoota);
+	array_push( global.PlayerWeapons, global.WeaponList.multiShoota);
+	
+	//Definition of selected weapon, 0 is first slot, 1 is second
+	selectedWeapon = 0;
+	weapon = global.PlayerWeapons[selectedWeapon];
+		
+	

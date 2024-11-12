@@ -47,8 +47,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"Agent_Escapades",
-    "path":"Agent_Escapades.yyp",
+    "name":"Player",
+    "path":"folders/Player.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

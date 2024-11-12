@@ -4,6 +4,7 @@ leftKey = keyboard_check(ord( "A" ));
 upKey = keyboard_check(ord( "W" ));
 downKey = keyboard_check(ord( "S" ));
 shootKey = mouse_check_button( mb_left );
+swapKeyPressed = mouse_check_button_pressed( mb_right );
 
 //Player movement
 #region
@@ -64,6 +65,26 @@ shootKey = mouse_check_button( mb_left );
 	sprite_index = sprite[face];
 #endregion
 
+//Weapon swapping
+#region
+
+var _playerWeapons = global.PlayerWeapons;
+
+	//Cycle through weapons
+	if swapKeyPressed
+	{
+		//Increment the weapon slot by one, switching to the next one in the array
+		selectedWeapon++;
+		
+		//We have two weapons, so our selectedWeapon number can't be greater than two
+		if selectedWeapon >= array_length(_playerWeapons) { selectedWeapon = 0; };
+		
+		//Set the new weapon
+		weapon = _playerWeapons[selectedWeapon];
+		
+	}
+#endregion
+
 //Shooting weapon
 #region
 
@@ -74,20 +95,35 @@ if shootKey && shootTimer <= 0
 {
 	
 	//Reset the timer
-	shootTimer = shootCooldown;
+	shootTimer = weapon.cooldown;
 	
 	//Shooting
 			//Create bullet, storing identifier into bulletinst
-			var _xOffset = lengthdir_x( weaponLength + weaponOffsetDist, aimDir );
-			var _yOffset = lengthdir_y( weaponLength + weaponOffsetDist, aimDir );
+			var _xOffset = lengthdir_x( weapon.length + weaponOffsetDist, aimDir );
+			var _yOffset = lengthdir_y( weapon.length + weaponOffsetDist, aimDir );
 	
-			var _bulletinst = instance_create_depth( x +_xOffset, centerY + _yOffset, depth-100, bulletObj);
+			var _spread = weapon.spread;
+			var _spreadDiv = _spread / max( weapon.bulletNum - 1, 1) ;
+			
+			
+			//A loop that creates a bullet for each bulletNum we've set, so 7 loops for 7 bullets in a shotgun spread
+			for ( var i = 0; i < weapon.bulletNum; i++) 
+			{ 
+				var _bulletinst = instance_create_depth( x +_xOffset, centerY + _yOffset, depth-100, weapon.bulletObj);
 	
-			//Change bullet's direction
-			with ( _bulletinst )
-			{
-				dir = other.aimDir;
+				//Change bullet's direction
+				with ( _bulletinst )
+				{
+					dir = other.aimDir - _spread / 2 + _spreadDiv * i;
+					
+					//Turn the bullet to the correct direction at creation, if necessary
+					if dirFix = true 
+					{
+						image_angle = dir;
+					}
+				}
 			}
+			
 			
 }
 

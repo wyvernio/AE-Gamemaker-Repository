@@ -16,7 +16,7 @@ function draw_my_weapon()
 	}
 
 
-draw_sprite_ext( sBigShoota, 0, x + _xOffset, centerY + _yOffset, 1, _weaponYscl, aimDir, c_white, 1 );
+draw_sprite_ext( weapon.sprite, 0, x + _xOffset, centerY + _yOffset, 1, _weaponYscl, aimDir, c_white, 1 );
 
 
 
