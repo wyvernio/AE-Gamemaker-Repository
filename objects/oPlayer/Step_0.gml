@@ -40,6 +40,11 @@ swapKeyPressed = mouse_check_button_pressed( mb_right );
 	
 #endregion
 
+
+//Get damaged
+get_damaged(oDamagePlayer, true);
+
+
 //Player aiming
 #region
 	centerY = y + centerYOffset;

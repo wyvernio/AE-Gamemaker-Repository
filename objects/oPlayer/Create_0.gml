@@ -1,3 +1,6 @@
+//Damage Setup 20 health
+	get_damaged_create(20, true);
+
 //Movement variables
 	moveDir = 0;
 	moveSpd = 2; //In pixels

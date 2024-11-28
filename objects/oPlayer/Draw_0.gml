@@ -16,3 +16,8 @@
 	{
 	draw_my_weapon();
 	}
+	
+	
+//Draw hp as number
+
+draw_text(x,y,string(hp));

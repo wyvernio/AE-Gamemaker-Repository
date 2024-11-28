@@ -9,3 +9,6 @@ yspd = 0;
 dirFix = false;
 maxDist = 200;
 destroy = false;
+
+//Piercing = no, if want to be yes, = false
+enemyDestroy = true;

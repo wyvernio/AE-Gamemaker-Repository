@@ -7,3 +7,4 @@ dirFix = true;
 spd = 13;
 maxDist = 400;
 
+enemyDestroy = false;

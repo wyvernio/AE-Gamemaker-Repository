@@ -1,22 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"oEnemyParent",
+  "%Name":"oCrate",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oEnemyParent",
+  "name":"oCrate",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Enemies.yy",
+    "name":"Agent_Escapades",
+    "path":"Agent_Escapades.yyp",
   },
   "parentObjectId":{
-    "name":"oDamagePlayer",
-    "path":"objects/oDamagePlayer/oDamagePlayer.yy",
+    "name":"oSolidWall",
+    "path":"objects/oSolidWall/oSolidWall.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -36,9 +35,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sEnemy1",
-    "path":"sprites/sEnemy1/sEnemy1.yy",
+    "name":"sCrate",
+    "path":"sprites/sCrate/sCrate.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"sCrate",
+    "path":"sprites/sCrate/sCrate.yy",
+  },
   "visible":true,
 }
