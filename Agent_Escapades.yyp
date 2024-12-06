@@ -72,6 +72,7 @@
   "resources":[
     {"id":{"name":"License","path":"notes/License/License.yy",},},
     {"id":{"name":"oBullet1","path":"objects/oBullet1/oBullet1.yy",},},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"oCrate","path":"objects/oCrate/oCrate.yy",},},
     {"id":{"name":"oDamageEnemy","path":"objects/oDamageEnemy/oDamageEnemy.yy",},},
     {"id":{"name":"oDamageParent","path":"objects/oDamageParent/oDamageParent.yy",},},
@@ -84,6 +85,7 @@
     {"id":{"name":"oSolidWall","path":"objects/oSolidWall/oSolidWall.yy",},},
     {"id":{"name":"oTestSubject","path":"objects/oTestSubject/oTestSubject.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
+    {"id":{"name":"rmInitialize","path":"rooms/rmInitialize/rmInitialize.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"custom_functions","path":"scripts/custom_functions/custom_functions.yy",},},
     {"id":{"name":"weapon_creation","path":"scripts/weapon_creation/weapon_creation.yy",},},
@@ -390,6 +392,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rmInitialize","path":"rooms/rmInitialize/rmInitialize.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
