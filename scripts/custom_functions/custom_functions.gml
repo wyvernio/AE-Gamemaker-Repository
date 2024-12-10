@@ -29,6 +29,7 @@ draw_sprite_ext( weapon.sprite, 0, x + _xOffset, centerY + _yOffset, 1, _weaponY
 	//Damage create event
 function get_damaged_create(_hp = 10, _iframes = false)
 {
+	maxHp = _hp;
 	hp = _hp;
 	
 	//Get iframes
@@ -72,6 +73,9 @@ function get_damaged( _damageObj, _iframes = false)
 						image_alpha = 1;
 					}
 			}
+			
+			//HP clamp
+			hp = clamp( hp, 0, maxHp );
 			
 			exit;
 		}
@@ -157,5 +161,7 @@ function get_damaged( _damageObj, _iframes = false)
 						}
 				}
 		}
-	
+		
+		//Clamp hp
+		hp = clamp( hp, 0, maxHp );
 	}

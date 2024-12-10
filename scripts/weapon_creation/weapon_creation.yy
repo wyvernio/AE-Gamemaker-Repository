@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"weapon_creation",
   "parent":{
-    "name":"Agent_Escapades",
-    "path":"Agent_Escapades.yyp",
+    "name":"Game Control",
+    "path":"folders/Game Control.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

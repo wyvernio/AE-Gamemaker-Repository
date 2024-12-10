@@ -8,8 +8,8 @@
   "name":"oCamera",
   "overriddenProperties":[],
   "parent":{
-    "name":"Agent_Escapades",
-    "path":"Agent_Escapades.yyp",
+    "name":"Game Control",
+    "path":"folders/Game Control.yy",
   },
   "parentObjectId":null,
   "persistent":true,

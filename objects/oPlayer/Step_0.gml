@@ -1,10 +1,10 @@
 //Get inputs
-rightKey = keyboard_check(ord( "D" ));
-leftKey = keyboard_check(ord( "A" ));
-upKey = keyboard_check(ord( "W" ));
-downKey = keyboard_check(ord( "S" ));
-shootKey = mouse_check_button( mb_left );
-swapKeyPressed = mouse_check_button_pressed( mb_right );
+rightKey = global.rightKey;
+leftKey = global.leftKey;
+upKey = global.upKey;
+downKey = global.downKey;
+shootKey = global.shootKey;
+swapKeyPressed = global.swapKeyPressed;
 
 //Player movement
 #region
@@ -133,3 +133,13 @@ if shootKey && shootTimer <= 0
 }
 
 #endregion
+
+//Death/Game over
+if hp <= 0 
+{
+	//Create the game over object
+	instance_create_depth( 0, 0, -10000, oGameOverScreen );
+	//Destroy self
+	instance_destroy();
+	
+}

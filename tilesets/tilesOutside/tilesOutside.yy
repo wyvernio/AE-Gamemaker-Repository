@@ -15,8 +15,8 @@
   "out_tilehborder":0,
   "out_tilevborder":0,
   "parent":{
-    "name":"Agent_Escapades",
-    "path":"Agent_Escapades.yyp",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

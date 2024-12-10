@@ -6,8 +6,8 @@
   "name":"oSolidWall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Agent_Escapades",
-    "path":"Agent_Escapades.yyp",
+    "name":"Walls",
+    "path":"folders/Walls.yy",
   },
   "parentObjectId":{
     "name":"oWall",

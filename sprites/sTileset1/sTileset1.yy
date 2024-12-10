@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Agent_Escapades",
-    "path":"Agent_Escapades.yyp",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

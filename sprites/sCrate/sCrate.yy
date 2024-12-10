@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Agent_Escapades",
-    "path":"Agent_Escapades.yyp",
+    "name":"Walls",
+    "path":"folders/Walls.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

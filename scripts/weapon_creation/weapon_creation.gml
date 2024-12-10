@@ -30,7 +30,7 @@ global.WeaponList =
 		sLongShoota,
 		sprite_get_bbox_right( sLongShoota ) - sprite_get_xoffset( sLongShoota ),
 		oLongBullet,
-		70,
+		30,
 		1,
 		0
 	),
@@ -39,7 +39,7 @@ global.WeaponList =
 		sMultiShoota,
 		sprite_get_bbox_right( sMultiShoota ) - sprite_get_xoffset( sMultiShoota ),
 		oMultiBullet,
-		18,
+		10,
 		7,
 		90
 	),
