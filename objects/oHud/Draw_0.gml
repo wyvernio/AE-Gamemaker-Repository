@@ -42,3 +42,27 @@ draw_set_font( fnt8bit );
 	//Total enemies in level count
 	draw_text( _ecHudX + 40, _ecHudY + 2, "/" + string( global.enemyRoomMax ) );
 	
+	
+	
+	
+// Timer HUD coordinates
+var _timerOffset = 50; // Adjust offset for placement
+var _timerHudX = _hudX;
+var _timerHudY = _hudY + _timerOffset;
+
+// Draw the timer background/box
+draw_sprite(sTimer, 0, _timerHudX - 2, _timerHudY);
+
+// Calculate the remaining minutes and seconds
+var remaining_minutes = floor(global.timer / (60 * 60));
+var remaining_seconds = floor((global.timer / 60) mod 60);
+
+// Draw the timer text in MM:SS
+draw_set_halign(fa_center);
+draw_set_valign(fa_top);
+draw_set_font(fnt8bit);
+draw_text(_timerHudX + 40, _timerHudY + 2, 
+    string(remaining_minutes) + ":" + string_format(remaining_seconds, 2, 0)); 
+	
+	
+

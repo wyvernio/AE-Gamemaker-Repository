@@ -10,3 +10,6 @@ if shootKey && alpha >= 1
 {
 	room_restart();	
 }
+
+
+

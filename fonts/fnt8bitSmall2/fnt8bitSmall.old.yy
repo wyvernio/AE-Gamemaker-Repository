@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fnt8bit",
+  "%Name":"fnt8bitSmall",
   "AntiAlias":0,
   "applyKerning":0,
   "ascender":12,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":15,
   "maintainGms1Font":false,
-  "name":"fnt8bit",
+  "name":"fnt8bitSmall",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",
@@ -131,7 +131,7 @@
   "resourceType":"GMFont",
   "resourceVersion":"2.0",
   "sampleText":"abcdef ABCDEF\n0123456789 .,<>\"'&!?\nthe quick brown fox jumps over the lazy dog\nTHE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\nDefault character: ▯ (9647)",
-  "sdfSpread":10,
+  "sdfSpread":3,
   "size":11.0,
   "styleName":"Regular",
   "textureGroupId":{

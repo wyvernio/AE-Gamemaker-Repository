@@ -1,5 +1,5 @@
 //Damage Setup 20 health
-	get_damaged_create(20, true);
+	get_damaged_create(10, true);
 
 //Movement variables
 	moveDir = 0;

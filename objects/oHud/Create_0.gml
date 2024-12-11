@@ -6,7 +6,11 @@ playerHp = 0;
 playerMaxHp = 0;
 
 //Enemy Management
-global.enemyRoomMax = 100;
-global.activeEnemyMax = 60;
+global.enemyRoomMax = 60;
+global.activeEnemyMax = 100;
 global.totalEnemiesSpawned = 0;
 global.enemyKillCount = 0;
+
+// Timer variables
+global.timer = 90 * 60;
+global.timerActive = true;
